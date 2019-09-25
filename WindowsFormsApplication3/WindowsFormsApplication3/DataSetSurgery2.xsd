@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetSurgery2" targetNamespace="http://tempuri.org/DataSetSurgery2.xsd" xmlns:mstns="http://tempuri.org/DataSetSurgery2.xsd" xmlns="http://tempuri.org/DataSetSurgery2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetSurgery2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetSurgery2" msprop:Generator_UserDSName="DataSetSurgery2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SurgeryTable2" msprop:Generator_TableClassName="SurgeryTable2DataTable" msprop:Generator_TableVarName="tableSurgeryTable2" msprop:Generator_TablePropName="SurgeryTable2" msprop:Generator_RowDeletingName="SurgeryTable2RowDeleting" msprop:Generator_RowChangingName="SurgeryTable2RowChanging" msprop:Generator_RowEvHandlerName="SurgeryTable2RowChangeEventHandler" msprop:Generator_RowDeletedName="SurgeryTable2RowDeleted" msprop:Generator_UserTableName="SurgeryTable2" msprop:Generator_RowChangedName="SurgeryTable2RowChanged" msprop:Generator_RowEvArgName="SurgeryTable2RowChangeEvent" msprop:Generator_RowClassName="SurgeryTable2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EXam_Roll" msprop:Generator_ColumnVarNameInTable="columnEXam_Roll" msprop:Generator_ColumnPropNameInRow="EXam_Roll" msprop:Generator_ColumnPropNameInTable="EXam_RollColumn" msprop:Generator_UserColumnName="EXam_Roll" type="xs:int" minOccurs="0" />
+              <xs:element name="SUR_MCQ1" msprop:Generator_ColumnVarNameInTable="columnSUR_MCQ1" msprop:Generator_ColumnPropNameInRow="SUR_MCQ1" msprop:Generator_ColumnPropNameInTable="SUR_MCQ1Column" msprop:Generator_UserColumnName="SUR_MCQ1" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_Formative1" msprop:Generator_ColumnVarNameInTable="columnSUR_Formative1" msprop:Generator_ColumnPropNameInRow="SUR_Formative1" msprop:Generator_ColumnPropNameInTable="SUR_Formative1Column" msprop:Generator_UserColumnName="SUR_Formative1" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_A2" msprop:Generator_ColumnVarNameInTable="columnSUR_A2" msprop:Generator_ColumnPropNameInRow="SUR_A2" msprop:Generator_ColumnPropNameInTable="SUR_A2Column" msprop:Generator_UserColumnName="SUR_A2" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_B2" msprop:Generator_ColumnVarNameInTable="columnSUR_B2" msprop:Generator_ColumnPropNameInRow="SUR_B2" msprop:Generator_ColumnPropNameInTable="SUR_B2Column" msprop:Generator_UserColumnName="SUR_B2" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_C2" msprop:Generator_ColumnVarNameInTable="columnSUR_C2" msprop:Generator_ColumnPropNameInRow="SUR_C2" msprop:Generator_ColumnPropNameInTable="SUR_C2Column" msprop:Generator_UserColumnName="SUR_C2" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_D2" msprop:Generator_ColumnVarNameInTable="columnSUR_D2" msprop:Generator_ColumnPropNameInRow="SUR_D2" msprop:Generator_ColumnPropNameInTable="SUR_D2Column" msprop:Generator_UserColumnName="SUR_D2" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_MCQ2" msprop:Generator_ColumnVarNameInTable="columnSUR_MCQ2" msprop:Generator_ColumnPropNameInRow="SUR_MCQ2" msprop:Generator_ColumnPropNameInTable="SUR_MCQ2Column" msprop:Generator_UserColumnName="SUR_MCQ2" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_Formative2" msprop:Generator_ColumnVarNameInTable="columnSUR_Formative2" msprop:Generator_ColumnPropNameInRow="SUR_Formative2" msprop:Generator_ColumnPropNameInTable="SUR_Formative2Column" msprop:Generator_UserColumnName="SUR_Formative2" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_Theory_Total" msprop:Generator_ColumnVarNameInTable="columnSUR_Theory_Total" msprop:Generator_ColumnPropNameInRow="SUR_Theory_Total" msprop:Generator_ColumnPropNameInTable="SUR_Theory_TotalColumn" msprop:Generator_UserColumnName="SUR_Theory_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_Oral" msprop:Generator_ColumnVarNameInTable="columnSUR_Oral" msprop:Generator_ColumnPropNameInRow="SUR_Oral" msprop:Generator_ColumnPropNameInTable="SUR_OralColumn" msprop:Generator_UserColumnName="SUR_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_Partical" msprop:Generator_ColumnVarNameInTable="columnSUR_Partical" msprop:Generator_ColumnPropNameInRow="SUR_Partical" msprop:Generator_ColumnPropNameInTable="SUR_ParticalColumn" msprop:Generator_UserColumnName="SUR_Partical" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_Clinical" msprop:Generator_ColumnVarNameInTable="columnSUR_Clinical" msprop:Generator_ColumnPropNameInRow="SUR_Clinical" msprop:Generator_ColumnPropNameInTable="SUR_ClinicalColumn" msprop:Generator_UserColumnName="SUR_Clinical" type="xs:string" minOccurs="0" />
+              <xs:element name="SUR_TOTAL" msprop:Generator_ColumnVarNameInTable="columnSUR_TOTAL" msprop:Generator_ColumnPropNameInRow="SUR_TOTAL" msprop:Generator_ColumnPropNameInTable="SUR_TOTALColumn" msprop:Generator_UserColumnName="SUR_TOTAL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

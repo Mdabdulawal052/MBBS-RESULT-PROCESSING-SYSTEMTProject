@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CommuTable2nnew1" targetNamespace="http://tempuri.org/CommuTable2nnew1.xsd" xmlns:mstns="http://tempuri.org/CommuTable2nnew1.xsd" xmlns="http://tempuri.org/CommuTable2nnew1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CommuTable2nnew1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CommuTable2nnew1" msprop:Generator_UserDSName="CommuTable2nnew1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CommuTable2new1" msprop:Generator_TableClassName="CommuTable2new1DataTable" msprop:Generator_TableVarName="tableCommuTable2new1" msprop:Generator_TablePropName="CommuTable2new1" msprop:Generator_RowDeletingName="CommuTable2new1RowDeleting" msprop:Generator_RowChangingName="CommuTable2new1RowChanging" msprop:Generator_RowEvHandlerName="CommuTable2new1RowChangeEventHandler" msprop:Generator_RowDeletedName="CommuTable2new1RowDeleted" msprop:Generator_UserTableName="CommuTable2new1" msprop:Generator_RowChangedName="CommuTable2new1RowChanged" msprop:Generator_RowEvArgName="CommuTable2new1RowChangeEvent" msprop:Generator_RowClassName="CommuTable2new1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EXam_Roll" msprop:Generator_ColumnVarNameInTable="columnEXam_Roll" msprop:Generator_ColumnPropNameInRow="EXam_Roll" msprop:Generator_ColumnPropNameInTable="EXam_RollColumn" msprop:Generator_UserColumnName="EXam_Roll" type="xs:int" minOccurs="0" />
+              <xs:element name="COM_MCQ" msprop:Generator_ColumnVarNameInTable="columnCOM_MCQ" msprop:Generator_ColumnPropNameInRow="COM_MCQ" msprop:Generator_ColumnPropNameInTable="COM_MCQColumn" msprop:Generator_UserColumnName="COM_MCQ" type="xs:string" minOccurs="0" />
+              <xs:element name="COM_For" msprop:Generator_ColumnVarNameInTable="columnCOM_For" msprop:Generator_ColumnPropNameInRow="COM_For" msprop:Generator_ColumnPropNameInTable="COM_ForColumn" msprop:Generator_UserColumnName="COM_For" type="xs:string" minOccurs="0" />
+              <xs:element name="COM_Theory_Total" msprop:Generator_ColumnVarNameInTable="columnCOM_Theory_Total" msprop:Generator_ColumnPropNameInRow="COM_Theory_Total" msprop:Generator_ColumnPropNameInTable="COM_Theory_TotalColumn" msprop:Generator_UserColumnName="COM_Theory_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="COM_Oral" msprop:Generator_ColumnVarNameInTable="columnCOM_Oral" msprop:Generator_ColumnPropNameInRow="COM_Oral" msprop:Generator_ColumnPropNameInTable="COM_OralColumn" msprop:Generator_UserColumnName="COM_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="COM_OSPE" msprop:Generator_ColumnVarNameInTable="columnCOM_OSPE" msprop:Generator_ColumnPropNameInRow="COM_OSPE" msprop:Generator_ColumnPropNameInTable="COM_OSPEColumn" msprop:Generator_UserColumnName="COM_OSPE" type="xs:string" minOccurs="0" />
+              <xs:element name="COM_Partical" msprop:Generator_ColumnVarNameInTable="columnCOM_Partical" msprop:Generator_ColumnPropNameInRow="COM_Partical" msprop:Generator_ColumnPropNameInTable="COM_ParticalColumn" msprop:Generator_UserColumnName="COM_Partical" type="xs:string" minOccurs="0" />
+              <xs:element name="COM_PARTICAL_Total" msprop:Generator_ColumnVarNameInTable="columnCOM_PARTICAL_Total" msprop:Generator_ColumnPropNameInRow="COM_PARTICAL_Total" msprop:Generator_ColumnPropNameInTable="COM_PARTICAL_TotalColumn" msprop:Generator_UserColumnName="COM_PARTICAL_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="COM_TOTAL" msprop:Generator_ColumnVarNameInTable="columnCOM_TOTAL" msprop:Generator_ColumnPropNameInRow="COM_TOTAL" msprop:Generator_ColumnPropNameInTable="COM_TOTALColumn" msprop:Generator_UserColumnName="COM_TOTAL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

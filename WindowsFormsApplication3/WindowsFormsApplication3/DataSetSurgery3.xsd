@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetSurgery3" targetNamespace="http://tempuri.org/DataSetSurgery3.xsd" xmlns:mstns="http://tempuri.org/DataSetSurgery3.xsd" xmlns="http://tempuri.org/DataSetSurgery3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetSurgery3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetSurgery3" msprop:Generator_UserDSName="DataSetSurgery3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SurgeryTable3" msprop:Generator_TableClassName="SurgeryTable3DataTable" msprop:Generator_TableVarName="tableSurgeryTable3" msprop:Generator_TablePropName="SurgeryTable3" msprop:Generator_RowDeletingName="SurgeryTable3RowDeleting" msprop:Generator_RowChangingName="SurgeryTable3RowChanging" msprop:Generator_RowEvHandlerName="SurgeryTable3RowChangeEventHandler" msprop:Generator_RowDeletedName="SurgeryTable3RowDeleted" msprop:Generator_UserTableName="SurgeryTable3" msprop:Generator_RowChangedName="SurgeryTable3RowChanged" msprop:Generator_RowEvArgName="SurgeryTable3RowChangeEvent" msprop:Generator_RowClassName="SurgeryTable3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EXam_Roll" msprop:Generator_ColumnVarNameInTable="columnEXam_Roll" msprop:Generator_ColumnPropNameInRow="EXam_Roll" msprop:Generator_ColumnPropNameInTable="EXam_RollColumn" msprop:Generator_UserColumnName="EXam_Roll" type="xs:int" minOccurs="0" />
+              <xs:element name="MEDI_A1" msprop:Generator_ColumnVarNameInTable="columnMEDI_A1" msprop:Generator_ColumnPropNameInRow="MEDI_A1" msprop:Generator_ColumnPropNameInTable="MEDI_A1Column" msprop:Generator_UserColumnName="MEDI_A1" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_B1" msprop:Generator_ColumnVarNameInTable="columnMEDI_B1" msprop:Generator_ColumnPropNameInRow="MEDI_B1" msprop:Generator_ColumnPropNameInTable="MEDI_B1Column" msprop:Generator_UserColumnName="MEDI_B1" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_MCQ1" msprop:Generator_ColumnVarNameInTable="columnMEDI_MCQ1" msprop:Generator_ColumnPropNameInRow="MEDI_MCQ1" msprop:Generator_ColumnPropNameInTable="MEDI_MCQ1Column" msprop:Generator_UserColumnName="MEDI_MCQ1" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_Formative1" msprop:Generator_ColumnVarNameInTable="columnMEDI_Formative1" msprop:Generator_ColumnPropNameInRow="MEDI_Formative1" msprop:Generator_ColumnPropNameInTable="MEDI_Formative1Column" msprop:Generator_UserColumnName="MEDI_Formative1" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_A2" msprop:Generator_ColumnVarNameInTable="columnMEDI_A2" msprop:Generator_ColumnPropNameInRow="MEDI_A2" msprop:Generator_ColumnPropNameInTable="MEDI_A2Column" msprop:Generator_UserColumnName="MEDI_A2" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_B2" msprop:Generator_ColumnVarNameInTable="columnMEDI_B2" msprop:Generator_ColumnPropNameInRow="MEDI_B2" msprop:Generator_ColumnPropNameInTable="MEDI_B2Column" msprop:Generator_UserColumnName="MEDI_B2" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_MCQ2" msprop:Generator_ColumnVarNameInTable="columnMEDI_MCQ2" msprop:Generator_ColumnPropNameInRow="MEDI_MCQ2" msprop:Generator_ColumnPropNameInTable="MEDI_MCQ2Column" msprop:Generator_UserColumnName="MEDI_MCQ2" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_Formative2" msprop:Generator_ColumnVarNameInTable="columnMEDI_Formative2" msprop:Generator_ColumnPropNameInRow="MEDI_Formative2" msprop:Generator_ColumnPropNameInTable="MEDI_Formative2Column" msprop:Generator_UserColumnName="MEDI_Formative2" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_Theory_Total" msprop:Generator_ColumnVarNameInTable="columnMEDI_Theory_Total" msprop:Generator_ColumnPropNameInRow="MEDI_Theory_Total" msprop:Generator_ColumnPropNameInTable="MEDI_Theory_TotalColumn" msprop:Generator_UserColumnName="MEDI_Theory_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_Oral" msprop:Generator_ColumnVarNameInTable="columnMEDI_Oral" msprop:Generator_ColumnPropNameInRow="MEDI_Oral" msprop:Generator_ColumnPropNameInTable="MEDI_OralColumn" msprop:Generator_UserColumnName="MEDI_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_Partical" msprop:Generator_ColumnVarNameInTable="columnMEDI_Partical" msprop:Generator_ColumnPropNameInRow="MEDI_Partical" msprop:Generator_ColumnPropNameInTable="MEDI_ParticalColumn" msprop:Generator_UserColumnName="MEDI_Partical" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_Clinical" msprop:Generator_ColumnVarNameInTable="columnMEDI_Clinical" msprop:Generator_ColumnPropNameInRow="MEDI_Clinical" msprop:Generator_ColumnPropNameInTable="MEDI_ClinicalColumn" msprop:Generator_UserColumnName="MEDI_Clinical" type="xs:string" minOccurs="0" />
+              <xs:element name="MEDI_TOTAL" msprop:Generator_ColumnVarNameInTable="columnMEDI_TOTAL" msprop:Generator_ColumnPropNameInRow="MEDI_TOTAL" msprop:Generator_ColumnPropNameInTable="MEDI_TOTALColumn" msprop:Generator_UserColumnName="MEDI_TOTAL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

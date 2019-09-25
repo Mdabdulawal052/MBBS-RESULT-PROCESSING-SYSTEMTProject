@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PathoTable4new1" targetNamespace="http://tempuri.org/PathoTable4new1.xsd" xmlns:mstns="http://tempuri.org/PathoTable4new1.xsd" xmlns="http://tempuri.org/PathoTable4new1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PathoTable4new1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PathoTable4new1" msprop:Generator_UserDSName="PathoTable4new1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PathoTable4new1" msprop:Generator_TableClassName="PathoTable4new1DataTable" msprop:Generator_TableVarName="tablePathoTable4new1" msprop:Generator_TablePropName="_PathoTable4new1" msprop:Generator_RowDeletingName="PathoTable4new1RowDeleting" msprop:Generator_RowChangingName="PathoTable4new1RowChanging" msprop:Generator_RowEvHandlerName="PathoTable4new1RowChangeEventHandler" msprop:Generator_RowDeletedName="PathoTable4new1RowDeleted" msprop:Generator_UserTableName="PathoTable4new1" msprop:Generator_RowChangedName="PathoTable4new1RowChanged" msprop:Generator_RowEvArgName="PathoTable4new1RowChangeEvent" msprop:Generator_RowClassName="PathoTable4new1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EXam_Roll" msprop:Generator_ColumnVarNameInTable="columnEXam_Roll" msprop:Generator_ColumnPropNameInRow="EXam_Roll" msprop:Generator_ColumnPropNameInTable="EXam_RollColumn" msprop:Generator_UserColumnName="EXam_Roll" type="xs:int" minOccurs="0" />
+              <xs:element name="Pharma_Oral" msprop:Generator_ColumnVarNameInTable="columnPharma_Oral" msprop:Generator_ColumnPropNameInRow="Pharma_Oral" msprop:Generator_ColumnPropNameInTable="Pharma_OralColumn" msprop:Generator_UserColumnName="Pharma_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_OSPE" msprop:Generator_ColumnVarNameInTable="columnPharma_OSPE" msprop:Generator_ColumnPropNameInRow="Pharma_OSPE" msprop:Generator_ColumnPropNameInTable="Pharma_OSPEColumn" msprop:Generator_UserColumnName="Pharma_OSPE" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_Partical" msprop:Generator_ColumnVarNameInTable="columnPharma_Partical" msprop:Generator_ColumnPropNameInRow="Pharma_Partical" msprop:Generator_ColumnPropNameInTable="Pharma_ParticalColumn" msprop:Generator_UserColumnName="Pharma_Partical" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_Partical_Total" msprop:Generator_ColumnVarNameInTable="columnPharma_Partical_Total" msprop:Generator_ColumnPropNameInRow="Pharma_Partical_Total" msprop:Generator_ColumnPropNameInTable="Pharma_Partical_TotalColumn" msprop:Generator_UserColumnName="Pharma_Partical_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_TOTAL" msprop:Generator_ColumnVarNameInTable="columnPharma_TOTAL" msprop:Generator_ColumnPropNameInRow="Pharma_TOTAL" msprop:Generator_ColumnPropNameInTable="Pharma_TOTALColumn" msprop:Generator_UserColumnName="Pharma_TOTAL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

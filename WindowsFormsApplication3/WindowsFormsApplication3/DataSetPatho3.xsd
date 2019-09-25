@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetPatho3" targetNamespace="http://tempuri.org/DataSetPatho3.xsd" xmlns:mstns="http://tempuri.org/DataSetPatho3.xsd" xmlns="http://tempuri.org/DataSetPatho3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetPatho3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetPatho3" msprop:Generator_UserDSName="DataSetPatho3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PathoTable3" msprop:Generator_TableClassName="PathoTable3DataTable" msprop:Generator_TableVarName="tablePathoTable3" msprop:Generator_TablePropName="PathoTable3" msprop:Generator_RowDeletingName="PathoTable3RowDeleting" msprop:Generator_RowChangingName="PathoTable3RowChanging" msprop:Generator_RowEvHandlerName="PathoTable3RowChangeEventHandler" msprop:Generator_RowDeletedName="PathoTable3RowDeleted" msprop:Generator_UserTableName="PathoTable3" msprop:Generator_RowChangedName="PathoTable3RowChanged" msprop:Generator_RowEvArgName="PathoTable3RowChangeEvent" msprop:Generator_RowClassName="PathoTable3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EXam_Roll" msprop:Generator_ColumnVarNameInTable="columnEXam_Roll" msprop:Generator_ColumnPropNameInRow="EXam_Roll" msprop:Generator_ColumnPropNameInTable="EXam_RollColumn" msprop:Generator_UserColumnName="EXam_Roll" type="xs:int" minOccurs="0" />
+              <xs:element name="Micro_Oral" msprop:Generator_ColumnVarNameInTable="columnMicro_Oral" msprop:Generator_ColumnPropNameInRow="Micro_Oral" msprop:Generator_ColumnPropNameInTable="Micro_OralColumn" msprop:Generator_UserColumnName="Micro_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_OSPE" msprop:Generator_ColumnVarNameInTable="columnMicro_OSPE" msprop:Generator_ColumnPropNameInRow="Micro_OSPE" msprop:Generator_ColumnPropNameInTable="Micro_OSPEColumn" msprop:Generator_UserColumnName="Micro_OSPE" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_Partical" msprop:Generator_ColumnVarNameInTable="columnMicro_Partical" msprop:Generator_ColumnPropNameInRow="Micro_Partical" msprop:Generator_ColumnPropNameInTable="Micro_ParticalColumn" msprop:Generator_UserColumnName="Micro_Partical" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_Partical_Total" msprop:Generator_ColumnVarNameInTable="columnMicro_Partical_Total" msprop:Generator_ColumnPropNameInRow="Micro_Partical_Total" msprop:Generator_ColumnPropNameInTable="Micro_Partical_TotalColumn" msprop:Generator_UserColumnName="Micro_Partical_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_TOTAL" msprop:Generator_ColumnVarNameInTable="columnMicro_TOTAL" msprop:Generator_ColumnPropNameInRow="Micro_TOTAL" msprop:Generator_ColumnPropNameInTable="Micro_TOTALColumn" msprop:Generator_UserColumnName="Micro_TOTAL" type="xs:int" minOccurs="0" />
+              <xs:element name="Pharma_A" msprop:Generator_ColumnVarNameInTable="columnPharma_A" msprop:Generator_ColumnPropNameInRow="Pharma_A" msprop:Generator_ColumnPropNameInTable="Pharma_AColumn" msprop:Generator_UserColumnName="Pharma_A" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_B" msprop:Generator_ColumnVarNameInTable="columnPharma_B" msprop:Generator_ColumnPropNameInRow="Pharma_B" msprop:Generator_ColumnPropNameInTable="Pharma_BColumn" msprop:Generator_UserColumnName="Pharma_B" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_C" msprop:Generator_ColumnVarNameInTable="columnPharma_C" msprop:Generator_ColumnPropNameInRow="Pharma_C" msprop:Generator_ColumnPropNameInTable="Pharma_CColumn" msprop:Generator_UserColumnName="Pharma_C" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_D" msprop:Generator_ColumnVarNameInTable="columnPharma_D" msprop:Generator_ColumnPropNameInRow="Pharma_D" msprop:Generator_ColumnPropNameInTable="Pharma_DColumn" msprop:Generator_UserColumnName="Pharma_D" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_MCQ" msprop:Generator_ColumnVarNameInTable="columnPharma_MCQ" msprop:Generator_ColumnPropNameInRow="Pharma_MCQ" msprop:Generator_ColumnPropNameInTable="Pharma_MCQColumn" msprop:Generator_UserColumnName="Pharma_MCQ" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_For" msprop:Generator_ColumnVarNameInTable="columnPharma_For" msprop:Generator_ColumnPropNameInRow="Pharma_For" msprop:Generator_ColumnPropNameInTable="Pharma_ForColumn" msprop:Generator_UserColumnName="Pharma_For" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_Theory_Total" msprop:Generator_ColumnVarNameInTable="columnPharma_Theory_Total" msprop:Generator_ColumnPropNameInRow="Pharma_Theory_Total" msprop:Generator_ColumnPropNameInTable="Pharma_Theory_TotalColumn" msprop:Generator_UserColumnName="Pharma_Theory_Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

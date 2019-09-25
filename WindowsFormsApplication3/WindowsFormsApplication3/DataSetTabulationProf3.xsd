@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetTabulationProf3" targetNamespace="http://tempuri.org/DataSetTabulationProf3.xsd" xmlns:mstns="http://tempuri.org/DataSetTabulationProf3.xsd" xmlns="http://tempuri.org/DataSetTabulationProf3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetTabulationProf3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetTabulationProf3" msprop:Generator_UserDSName="DataSetTabulationProf3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TabulationProf3" msprop:Generator_TableClassName="TabulationProf3DataTable" msprop:Generator_TableVarName="tableTabulationProf3" msprop:Generator_TablePropName="TabulationProf3" msprop:Generator_RowDeletingName="TabulationProf3RowDeleting" msprop:Generator_RowChangingName="TabulationProf3RowChanging" msprop:Generator_RowEvHandlerName="TabulationProf3RowChangeEventHandler" msprop:Generator_RowDeletedName="TabulationProf3RowDeleted" msprop:Generator_UserTableName="TabulationProf3" msprop:Generator_RowChangedName="TabulationProf3RowChanged" msprop:Generator_RowEvArgName="TabulationProf3RowChangeEvent" msprop:Generator_RowClassName="TabulationProf3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Reg_NO" msprop:Generator_ColumnVarNameInTable="columnReg_NO" msprop:Generator_ColumnPropNameInRow="Reg_NO" msprop:Generator_ColumnPropNameInTable="Reg_NOColumn" msprop:Generator_UserColumnName="Reg_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="Session" msprop:Generator_ColumnVarNameInTable="columnSession" msprop:Generator_ColumnPropNameInRow="Session" msprop:Generator_ColumnPropNameInTable="SessionColumn" msprop:Generator_UserColumnName="Session" type="xs:string" minOccurs="0" />
+              <xs:element name="EXam_Roll" msprop:Generator_ColumnVarNameInTable="columnEXam_Roll" msprop:Generator_ColumnPropNameInRow="EXam_Roll" msprop:Generator_ColumnPropNameInTable="EXam_RollColumn" msprop:Generator_UserColumnName="EXam_Roll" type="xs:int" minOccurs="0" />
+              <xs:element name="Name_of_Student" msprop:Generator_ColumnVarNameInTable="columnName_of_Student" msprop:Generator_ColumnPropNameInRow="Name_of_Student" msprop:Generator_ColumnPropNameInTable="Name_of_StudentColumn" msprop:Generator_UserColumnName="Name_of_Student" type="xs:string" minOccurs="0" />
+              <xs:element name="Subject" msprop:Generator_ColumnVarNameInTable="columnSubject" msprop:Generator_ColumnPropNameInRow="Subject" msprop:Generator_ColumnPropNameInTable="SubjectColumn" msprop:Generator_UserColumnName="Subject" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_GYNA_SAQ_Total" msprop:Generator_ColumnVarNameInTable="columnPatho_GYNA_SAQ_Total" msprop:Generator_ColumnPropNameInRow="Patho_GYNA_SAQ_Total" msprop:Generator_ColumnPropNameInTable="Patho_GYNA_SAQ_TotalColumn" msprop:Generator_UserColumnName="Patho_GYNA_SAQ_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_MCQ" msprop:Generator_ColumnVarNameInTable="columnPatho_MCQ" msprop:Generator_ColumnPropNameInRow="Patho_MCQ" msprop:Generator_ColumnPropNameInTable="Patho_MCQColumn" msprop:Generator_UserColumnName="Patho_MCQ" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_For" msprop:Generator_ColumnVarNameInTable="columnPatho_For" msprop:Generator_ColumnPropNameInRow="Patho_For" msprop:Generator_ColumnPropNameInTable="Patho_ForColumn" msprop:Generator_UserColumnName="Patho_For" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_Theory_Total" msprop:Generator_ColumnVarNameInTable="columnPatho_Theory_Total" msprop:Generator_ColumnPropNameInRow="Patho_Theory_Total" msprop:Generator_ColumnPropNameInTable="Patho_Theory_TotalColumn" msprop:Generator_UserColumnName="Patho_Theory_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_Oral" msprop:Generator_ColumnVarNameInTable="columnPatho_Oral" msprop:Generator_ColumnPropNameInRow="Patho_Oral" msprop:Generator_ColumnPropNameInTable="Patho_OralColumn" msprop:Generator_UserColumnName="Patho_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_Parctical_Total" msprop:Generator_ColumnVarNameInTable="columnPatho_Parctical_Total" msprop:Generator_ColumnPropNameInRow="Patho_Parctical_Total" msprop:Generator_ColumnPropNameInTable="Patho_Parctical_TotalColumn" msprop:Generator_UserColumnName="Patho_Parctical_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_TOTAL" msprop:Generator_ColumnVarNameInTable="columnPatho_TOTAL" msprop:Generator_ColumnPropNameInRow="Patho_TOTAL" msprop:Generator_ColumnPropNameInTable="Patho_TOTALColumn" msprop:Generator_UserColumnName="Patho_TOTAL" type="xs:int" minOccurs="0" />
+              <xs:element name="Micro_SAQ_Total" msprop:Generator_ColumnVarNameInTable="columnMicro_SAQ_Total" msprop:Generator_ColumnPropNameInRow="Micro_SAQ_Total" msprop:Generator_ColumnPropNameInTable="Micro_SAQ_TotalColumn" msprop:Generator_UserColumnName="Micro_SAQ_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_MCQ" msprop:Generator_ColumnVarNameInTable="columnMicro_MCQ" msprop:Generator_ColumnPropNameInRow="Micro_MCQ" msprop:Generator_ColumnPropNameInTable="Micro_MCQColumn" msprop:Generator_UserColumnName="Micro_MCQ" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_For" msprop:Generator_ColumnVarNameInTable="columnMicro_For" msprop:Generator_ColumnPropNameInRow="Micro_For" msprop:Generator_ColumnPropNameInTable="Micro_ForColumn" msprop:Generator_UserColumnName="Micro_For" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_Theory_Total" msprop:Generator_ColumnVarNameInTable="columnMicro_Theory_Total" msprop:Generator_ColumnPropNameInRow="Micro_Theory_Total" msprop:Generator_ColumnPropNameInTable="Micro_Theory_TotalColumn" msprop:Generator_UserColumnName="Micro_Theory_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_Oral" msprop:Generator_ColumnVarNameInTable="columnMicro_Oral" msprop:Generator_ColumnPropNameInRow="Micro_Oral" msprop:Generator_ColumnPropNameInTable="Micro_OralColumn" msprop:Generator_UserColumnName="Micro_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_Partical_Total" msprop:Generator_ColumnVarNameInTable="columnMicro_Partical_Total" msprop:Generator_ColumnPropNameInRow="Micro_Partical_Total" msprop:Generator_ColumnPropNameInTable="Micro_Partical_TotalColumn" msprop:Generator_UserColumnName="Micro_Partical_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Micro_TOTAL" msprop:Generator_ColumnVarNameInTable="columnMicro_TOTAL" msprop:Generator_ColumnPropNameInRow="Micro_TOTAL" msprop:Generator_ColumnPropNameInTable="Micro_TOTALColumn" msprop:Generator_UserColumnName="Micro_TOTAL" type="xs:int" minOccurs="0" />
+              <xs:element name="Pharma_SAQ_Total" msprop:Generator_ColumnVarNameInTable="columnPharma_SAQ_Total" msprop:Generator_ColumnPropNameInRow="Pharma_SAQ_Total" msprop:Generator_ColumnPropNameInTable="Pharma_SAQ_TotalColumn" msprop:Generator_UserColumnName="Pharma_SAQ_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_MCQ" msprop:Generator_ColumnVarNameInTable="columnPharma_MCQ" msprop:Generator_ColumnPropNameInRow="Pharma_MCQ" msprop:Generator_ColumnPropNameInTable="Pharma_MCQColumn" msprop:Generator_UserColumnName="Pharma_MCQ" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_For" msprop:Generator_ColumnVarNameInTable="columnPharma_For" msprop:Generator_ColumnPropNameInRow="Pharma_For" msprop:Generator_ColumnPropNameInTable="Pharma_ForColumn" msprop:Generator_UserColumnName="Pharma_For" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_Theory_Total" msprop:Generator_ColumnVarNameInTable="columnPharma_Theory_Total" msprop:Generator_ColumnPropNameInRow="Pharma_Theory_Total" msprop:Generator_ColumnPropNameInTable="Pharma_Theory_TotalColumn" msprop:Generator_UserColumnName="Pharma_Theory_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_Oral" msprop:Generator_ColumnVarNameInTable="columnPharma_Oral" msprop:Generator_ColumnPropNameInRow="Pharma_Oral" msprop:Generator_ColumnPropNameInTable="Pharma_OralColumn" msprop:Generator_UserColumnName="Pharma_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_Partical_Total" msprop:Generator_ColumnVarNameInTable="columnPharma_Partical_Total" msprop:Generator_ColumnPropNameInRow="Pharma_Partical_Total" msprop:Generator_ColumnPropNameInTable="Pharma_Partical_TotalColumn" msprop:Generator_UserColumnName="Pharma_Partical_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Pharma_TOTAL" msprop:Generator_ColumnVarNameInTable="columnPharma_TOTAL" msprop:Generator_ColumnPropNameInRow="Pharma_TOTAL" msprop:Generator_ColumnPropNameInTable="Pharma_TOTALColumn" msprop:Generator_UserColumnName="Pharma_TOTAL" type="xs:int" minOccurs="0" />
+              <xs:element name="GRAND_TOTAL" msprop:Generator_ColumnVarNameInTable="columnGRAND_TOTAL" msprop:Generator_ColumnPropNameInRow="GRAND_TOTAL" msprop:Generator_ColumnPropNameInTable="GRAND_TOTALColumn" msprop:Generator_UserColumnName="GRAND_TOTAL" type="xs:int" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

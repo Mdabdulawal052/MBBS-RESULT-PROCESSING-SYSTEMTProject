@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CommuTable3new2" targetNamespace="http://tempuri.org/CommuTable3new2.xsd" xmlns:mstns="http://tempuri.org/CommuTable3new2.xsd" xmlns="http://tempuri.org/CommuTable3new2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CommuTable3new2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="CommuTable3new2" msprop:Generator_UserDSName="CommuTable3new2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CommuTable3new2" msprop:Generator_TableClassName="CommuTable3new2DataTable" msprop:Generator_TableVarName="tableCommuTable3new2" msprop:Generator_TablePropName="_CommuTable3new2" msprop:Generator_RowDeletingName="CommuTable3new2RowDeleting" msprop:Generator_RowChangingName="CommuTable3new2RowChanging" msprop:Generator_RowEvHandlerName="CommuTable3new2RowChangeEventHandler" msprop:Generator_RowDeletedName="CommuTable3new2RowDeleted" msprop:Generator_UserTableName="CommuTable3new2" msprop:Generator_RowChangedName="CommuTable3new2RowChanged" msprop:Generator_RowEvArgName="CommuTable3new2RowChangeEvent" msprop:Generator_RowClassName="CommuTable3new2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EXam_Roll" msprop:Generator_ColumnVarNameInTable="columnEXam_Roll" msprop:Generator_ColumnPropNameInRow="EXam_Roll" msprop:Generator_ColumnPropNameInTable="EXam_RollColumn" msprop:Generator_UserColumnName="EXam_Roll" type="xs:int" minOccurs="0" />
+              <xs:element name="FOR_Oral" msprop:Generator_ColumnVarNameInTable="columnFOR_Oral" msprop:Generator_ColumnPropNameInRow="FOR_Oral" msprop:Generator_ColumnPropNameInTable="FOR_OralColumn" msprop:Generator_UserColumnName="FOR_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="FOR_OSPE" msprop:Generator_ColumnVarNameInTable="columnFOR_OSPE" msprop:Generator_ColumnPropNameInRow="FOR_OSPE" msprop:Generator_ColumnPropNameInTable="FOR_OSPEColumn" msprop:Generator_UserColumnName="FOR_OSPE" type="xs:string" minOccurs="0" />
+              <xs:element name="FOR_Parctical" msprop:Generator_ColumnVarNameInTable="columnFOR_Parctical" msprop:Generator_ColumnPropNameInRow="FOR_Parctical" msprop:Generator_ColumnPropNameInTable="FOR_ParcticalColumn" msprop:Generator_UserColumnName="FOR_Parctical" type="xs:string" minOccurs="0" />
+              <xs:element name="FOR_Partical_Total" msprop:Generator_ColumnVarNameInTable="columnFOR_Partical_Total" msprop:Generator_ColumnPropNameInRow="FOR_Partical_Total" msprop:Generator_ColumnPropNameInTable="FOR_Partical_TotalColumn" msprop:Generator_UserColumnName="FOR_Partical_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="FOR_TOTAL" msprop:Generator_ColumnVarNameInTable="columnFOR_TOTAL" msprop:Generator_ColumnPropNameInRow="FOR_TOTAL" msprop:Generator_ColumnPropNameInTable="FOR_TOTALColumn" msprop:Generator_UserColumnName="FOR_TOTAL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

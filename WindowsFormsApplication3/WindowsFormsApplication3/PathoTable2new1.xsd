@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PathoTable2new1" targetNamespace="http://tempuri.org/PathoTable2new1.xsd" xmlns:mstns="http://tempuri.org/PathoTable2new1.xsd" xmlns="http://tempuri.org/PathoTable2new1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PathoTable2new1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="PathoTable2new1" msprop:Generator_UserDSName="PathoTable2new1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PathoTable2new1" msprop:Generator_TableClassName="PathoTable2new1DataTable" msprop:Generator_TableVarName="tablePathoTable2new1" msprop:Generator_TablePropName="_PathoTable2new1" msprop:Generator_RowDeletingName="PathoTable2new1RowDeleting" msprop:Generator_RowChangingName="PathoTable2new1RowChanging" msprop:Generator_RowEvHandlerName="PathoTable2new1RowChangeEventHandler" msprop:Generator_RowDeletedName="PathoTable2new1RowDeleted" msprop:Generator_UserTableName="PathoTable2new1" msprop:Generator_RowChangedName="PathoTable2new1RowChanged" msprop:Generator_RowEvArgName="PathoTable2new1RowChangeEvent" msprop:Generator_RowClassName="PathoTable2new1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EXam_Roll" msprop:Generator_ColumnVarNameInTable="columnEXam_Roll" msprop:Generator_ColumnPropNameInRow="EXam_Roll" msprop:Generator_ColumnPropNameInTable="EXam_RollColumn" msprop:Generator_UserColumnName="EXam_Roll" type="xs:int" minOccurs="0" />
+              <xs:element name="Patho_MCQ" msprop:Generator_ColumnVarNameInTable="columnPatho_MCQ" msprop:Generator_ColumnPropNameInRow="Patho_MCQ" msprop:Generator_ColumnPropNameInTable="Patho_MCQColumn" msprop:Generator_UserColumnName="Patho_MCQ" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_For" msprop:Generator_ColumnVarNameInTable="columnPatho_For" msprop:Generator_ColumnPropNameInRow="Patho_For" msprop:Generator_ColumnPropNameInTable="Patho_ForColumn" msprop:Generator_UserColumnName="Patho_For" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_Theory_Total" msprop:Generator_ColumnVarNameInTable="columnPatho_Theory_Total" msprop:Generator_ColumnPropNameInRow="Patho_Theory_Total" msprop:Generator_ColumnPropNameInTable="Patho_Theory_TotalColumn" msprop:Generator_UserColumnName="Patho_Theory_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_Oral" msprop:Generator_ColumnVarNameInTable="columnPatho_Oral" msprop:Generator_ColumnPropNameInRow="Patho_Oral" msprop:Generator_ColumnPropNameInTable="Patho_OralColumn" msprop:Generator_UserColumnName="Patho_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_OSPE" msprop:Generator_ColumnVarNameInTable="columnPatho_OSPE" msprop:Generator_ColumnPropNameInRow="Patho_OSPE" msprop:Generator_ColumnPropNameInTable="Patho_OSPEColumn" msprop:Generator_UserColumnName="Patho_OSPE" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_Parctical" msprop:Generator_ColumnVarNameInTable="columnPatho_Parctical" msprop:Generator_ColumnPropNameInRow="Patho_Parctical" msprop:Generator_ColumnPropNameInTable="Patho_ParcticalColumn" msprop:Generator_UserColumnName="Patho_Parctical" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_Parctical_Total" msprop:Generator_ColumnVarNameInTable="columnPatho_Parctical_Total" msprop:Generator_ColumnPropNameInRow="Patho_Parctical_Total" msprop:Generator_ColumnPropNameInTable="Patho_Parctical_TotalColumn" msprop:Generator_UserColumnName="Patho_Parctical_Total" type="xs:string" minOccurs="0" />
+              <xs:element name="Patho_TOTAL" msprop:Generator_ColumnVarNameInTable="columnPatho_TOTAL" msprop:Generator_ColumnPropNameInRow="Patho_TOTAL" msprop:Generator_ColumnPropNameInTable="Patho_TOTALColumn" msprop:Generator_UserColumnName="Patho_TOTAL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

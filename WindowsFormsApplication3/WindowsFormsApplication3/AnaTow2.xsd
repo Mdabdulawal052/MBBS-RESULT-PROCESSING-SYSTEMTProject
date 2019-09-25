@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AnaTow2" targetNamespace="http://tempuri.org/AnaTow2.xsd" xmlns:mstns="http://tempuri.org/AnaTow2.xsd" xmlns="http://tempuri.org/AnaTow2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AnaTow2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="AnaTow2" msprop:Generator_UserDSName="AnaTow2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AnaTow2" msprop:Generator_TableClassName="AnaTow2DataTable" msprop:Generator_TableVarName="tableAnaTow2" msprop:Generator_RowChangedName="AnaTow2RowChanged" msprop:Generator_TablePropName="_AnaTow2" msprop:Generator_RowDeletingName="AnaTow2RowDeleting" msprop:Generator_RowChangingName="AnaTow2RowChanging" msprop:Generator_RowEvHandlerName="AnaTow2RowChangeEventHandler" msprop:Generator_RowDeletedName="AnaTow2RowDeleted" msprop:Generator_RowClassName="AnaTow2Row" msprop:Generator_UserTableName="AnaTow2" msprop:Generator_RowEvArgName="AnaTow2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EXam_Roll" msprop:Generator_ColumnVarNameInTable="columnEXam_Roll" msprop:Generator_ColumnPropNameInRow="EXam_Roll" msprop:Generator_ColumnPropNameInTable="EXam_RollColumn" msprop:Generator_UserColumnName="EXam_Roll" type="xs:int" minOccurs="0" />
+              <xs:element name="PHY_Oral" msprop:Generator_ColumnVarNameInTable="columnPHY_Oral" msprop:Generator_ColumnPropNameInRow="PHY_Oral" msprop:Generator_ColumnPropNameInTable="PHY_OralColumn" msprop:Generator_UserColumnName="PHY_Oral" type="xs:string" minOccurs="0" />
+              <xs:element name="PHY_Parctical" msprop:Generator_ColumnVarNameInTable="columnPHY_Parctical" msprop:Generator_ColumnPropNameInRow="PHY_Parctical" msprop:Generator_ColumnPropNameInTable="PHY_ParcticalColumn" msprop:Generator_UserColumnName="PHY_Parctical" type="xs:string" minOccurs="0" />
+              <xs:element name="PHY_TOTAL" msprop:Generator_ColumnVarNameInTable="columnPHY_TOTAL" msprop:Generator_ColumnPropNameInRow="PHY_TOTAL" msprop:Generator_ColumnPropNameInTable="PHY_TOTALColumn" msprop:Generator_UserColumnName="PHY_TOTAL" type="xs:string" minOccurs="0" />
+              <xs:element name="BIO_A1" msprop:Generator_ColumnVarNameInTable="columnBIO_A1" msprop:Generator_ColumnPropNameInRow="BIO_A1" msprop:Generator_ColumnPropNameInTable="BIO_A1Column" msprop:Generator_UserColumnName="BIO_A1" type="xs:string" minOccurs="0" />
+              <xs:element name="BIO_B1" msprop:Generator_ColumnVarNameInTable="columnBIO_B1" msprop:Generator_ColumnPropNameInRow="BIO_B1" msprop:Generator_ColumnPropNameInTable="BIO_B1Column" msprop:Generator_UserColumnName="BIO_B1" type="xs:string" minOccurs="0" />
+              <xs:element name="BIO_MCQ1" msprop:Generator_ColumnVarNameInTable="columnBIO_MCQ1" msprop:Generator_ColumnPropNameInRow="BIO_MCQ1" msprop:Generator_ColumnPropNameInTable="BIO_MCQ1Column" msprop:Generator_UserColumnName="BIO_MCQ1" type="xs:string" minOccurs="0" />
+              <xs:element name="BIO_For1" msprop:Generator_ColumnVarNameInTable="columnBIO_For1" msprop:Generator_ColumnPropNameInRow="BIO_For1" msprop:Generator_ColumnPropNameInTable="BIO_For1Column" msprop:Generator_UserColumnName="BIO_For1" type="xs:string" minOccurs="0" />
+              <xs:element name="BIO_A2" msprop:Generator_ColumnVarNameInTable="columnBIO_A2" msprop:Generator_ColumnPropNameInRow="BIO_A2" msprop:Generator_ColumnPropNameInTable="BIO_A2Column" msprop:Generator_UserColumnName="BIO_A2" type="xs:string" minOccurs="0" />
+              <xs:element name="BIO_B2" msprop:Generator_ColumnVarNameInTable="columnBIO_B2" msprop:Generator_ColumnPropNameInRow="BIO_B2" msprop:Generator_ColumnPropNameInTable="BIO_B2Column" msprop:Generator_UserColumnName="BIO_B2" type="xs:string" minOccurs="0" />
+              <xs:element name="BIO_MCQ2" msprop:Generator_ColumnVarNameInTable="columnBIO_MCQ2" msprop:Generator_ColumnPropNameInRow="BIO_MCQ2" msprop:Generator_ColumnPropNameInTable="BIO_MCQ2Column" msprop:Generator_UserColumnName="BIO_MCQ2" type="xs:string" minOccurs="0" />
+              <xs:element name="BIO_For2" msprop:Generator_ColumnVarNameInTable="columnBIO_For2" msprop:Generator_ColumnPropNameInRow="BIO_For2" msprop:Generator_ColumnPropNameInTable="BIO_For2Column" msprop:Generator_UserColumnName="BIO_For2" type="xs:string" minOccurs="0" />
+              <xs:element name="BIO_Theory_Total" msprop:Generator_ColumnVarNameInTable="columnBIO_Theory_Total" msprop:Generator_ColumnPropNameInRow="BIO_Theory_Total" msprop:Generator_ColumnPropNameInTable="BIO_Theory_TotalColumn" msprop:Generator_UserColumnName="BIO_Theory_Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
